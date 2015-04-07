@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Home Budget</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Opcje</string>
+    <string name="dodusu1">Dodaj/Usuń dochody</string>
+    <string name="dodusu2">Dodaj/Usuń wydatki</string>
+    <string name="opcje">Opcje</string>
+    <string name="glowna">Strona główna</string>
+    <string name="statystyki">Wyświetl statystyki</string>
+    <string name="zamknij">Zamknij program</string>
+</resources>
