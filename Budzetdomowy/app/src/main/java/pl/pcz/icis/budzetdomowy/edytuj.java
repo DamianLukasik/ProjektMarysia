@@ -1,5 +1,6 @@
 package pl.pcz.icis.budzetdomowy;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,15 +10,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-
 /**
- * Created by Nefalem on 2015-04-02.
+ * Created by Nefalem on 2015-04-11.
  */
-public class dochody extends ActionBarActivity {
+
+public class edytuj extends ActionBarActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dochody);
+        setContentView(R.layout.edytuj);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.action_bar_container, new PlaceholderFragment())
@@ -52,7 +53,7 @@ public class dochody extends ActionBarActivity {
             return true;
         }
         if(itemId == R.id.edytuj){
-            startActivity (new Intent (this, dochody.class));
+            startActivity (new Intent (this, edytuj.class));
             return true;
         }
         else{
@@ -68,7 +69,7 @@ public class dochody extends ActionBarActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup action_bar_container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.dochody, action_bar_container, false);
+            View rootView = inflater.inflate(R.layout.edytuj, action_bar_container, false);
             return rootView;
         }
     }

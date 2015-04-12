@@ -26,6 +26,19 @@ public class main extends ActionBarActivity{
     }
   }
 
+   public void onButtonClick(View v){
+       startActivity (new Intent (this, dochody.class));
+   }
+    public void onButtonClick1(View v){
+        startActivity (new Intent (this, wydatki.class));
+    }
+    public void onButtonClick2(View v){
+        startActivity (new Intent (this, pokaz.class));
+    }
+    public void onButtonClick3(View v){
+        startActivity (new Intent (this, edytuj.class));
+    }
+
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     // Inflate the menu; this adds items to the action bar if it is present.
@@ -44,8 +57,16 @@ public class main extends ActionBarActivity{
           startActivity (new Intent (this, dochody.class));
           return true;
       }
-      if(itemId == R.id.zamknij){
-          System.exit(0);
+      if(itemId == R.id.dodusu2){
+          startActivity (new Intent (this, wydatki.class));
+          return true;
+      }
+      if(itemId == R.id.statystyki){
+          startActivity (new Intent (this, pokaz.class));
+          return true;
+      }
+      if(itemId == R.id.edytuj){
+          startActivity (new Intent (this, edytuj.class));
           return true;
       }
       else{

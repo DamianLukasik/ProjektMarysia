@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Tytuł dochodu:" />
+                android:text="Tytuł wydatku:"/>
 
             <EditText
                 android:layout_width="wrap_content"
@@ -46,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Data dochodu"
+                android:text="Data wydatku"
                 android:id="@+id/textView5" />
 
             <EditText
@@ -87,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Dochód stały"
+                android:text="Wydatek stały"
                 android:id="@+id/textView10" />
 
             <CheckBox

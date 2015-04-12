@@ -18,8 +18,8 @@
     <item android:id="@+id/statystyki"
         android:title="@string/statystyki"
         app:showAsAction="always|withText"/>
-     <item android:id="@+id/zamknij"
-        android:title="@string/zamknij"
+     <item android:id="@+id/edytuj"
+        android:title="@string/edycja"
         app:showAsAction="always|withText"/>
 </menu>
 </item>
